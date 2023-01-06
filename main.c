@@ -161,7 +161,7 @@ void SimpleDenoise_Free(SimpleDenoiseHandle *handle)
         }
     }
 }
-
+#define M_PI       3.14159265358979323846   // pi
 int SimpleDenoise_Init(SimpleDenoiseHandle *handle, size_t sampleRate, size_t ms)
 {
     if (handle) {
